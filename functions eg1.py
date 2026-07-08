@@ -1,0 +1,26 @@
+def add():
+    print("Addition:")
+    a=int(input("enter a:"))
+    b=int(input("enter b:"))
+    print(a+b)
+def sub():
+    print("Subtraction:")
+    a=int(input("enter a:"))
+    b=int(input("enter b:"))
+    print(a-b)
+add()
+sub()
+def mul():
+    print("Multiplication:")
+    a=int(input("enter a:"))
+    b=int(input("enter b:"))
+    print(a*b)
+def div():
+    print("Div:")
+    a=int(input("enter a:"))
+    b=int(input("enter b:"))
+    print(a/b)
+add()
+sub()
+div()
+mul()
