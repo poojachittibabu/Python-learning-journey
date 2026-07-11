@@ -1,0 +1,19 @@
+class laptop:
+    price="0"
+    proc=""
+    ram=""
+hp=laptop()
+dell=laptop()
+lenovo=laptop()
+hp.price="50000"
+hp.proc="15"
+hp.ram="15GB"
+dell.price="60000"
+dell.proc="17"
+dell.ram="16GB"
+lenovo.price="80000"
+lenovo.proc="18"
+lenovo.ram="19GB"
+print(hp.price)
+print(dell.price)
+print(lenovo.price)

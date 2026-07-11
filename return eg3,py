@@ -1,0 +1,11 @@
+s_username="pooja"
+s_password="123"
+uname=input()
+password=input()
+def validate():
+    if(s_username==uname and s_password==password):
+        return("correct")
+    else:
+       return("wrong")
+a=validate()
+print(a)
